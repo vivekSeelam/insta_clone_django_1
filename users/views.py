@@ -8,3 +8,18 @@ def index(request):
         message = "vvievk is the best"
     return HttpResponse(f"THis is wierd {message}")
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
