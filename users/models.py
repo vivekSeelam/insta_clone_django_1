@@ -6,6 +6,7 @@ class User(models.Model):
     name = models.CharField(max_length=256, null=False)
     email = models.EmailField(max_length=256, null=False, unique=True)
     phone_num = models.CharField(max_length=256, null=False, unique=True)
+    password = models.CharField(max_length=55, null=False)
     is_active = models.BooleanField(default=False)
 
     created_on = models.DateTimeField(auto_now_add=True)
